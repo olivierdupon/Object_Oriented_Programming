@@ -1,0 +1,12 @@
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+  sayLegs: function () {
+    let result = "This dog has " + dog.numLegs +  " legs.";
+    console.log(result);
+    return result;
+  }
+};
+
+dog.sayLegs();
+    
